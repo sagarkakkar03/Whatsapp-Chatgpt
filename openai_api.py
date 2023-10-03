@@ -1,5 +1,5 @@
 import openai
-openai.api_key = "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"
+# openai.api_key = 
 def text_complition(prompt: str):
     try:
         response = openai.Completion.create(
